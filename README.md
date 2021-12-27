@@ -29,7 +29,7 @@ The reason why the recommending system is counted as an advanced function is tha
 
 ## Website Dataflow
 ### Type1: Admin
-When an admin logs into our website, he/she will see Figure 2 on his / her interface. An admin is able to create users and admins accounts, add/update/delete movies, directors, and actors information. \
+When an admin logs into our website, he/she will see Figure 2 on his / her interface. An admin is able to create users and admins accounts, add/update/delete movies, directors, and actors information. 
 
 <img src="docfigs/Fig2.PNG" alt="drawing" alt="drawing" width="600"/>
 Fig 2 Admin login Interface
@@ -41,8 +41,8 @@ Fig 3 The interface of adding a movie
 
 ### Type 2: Users
 When users log in our website, the first interface that users will see is their own personal page, as shown in Figures 4 and 5. On this interface, “My watchlist” displays the movies that users have not watched but would like to watch in the future. “My watched movies” lists the movies that users have already watched and rated. The last panel on this interface is the movie recommendation panel. This panel may not be shown if the user has not added any movies to their watchlist or have not rated any movies yet. \
-Additionally, users can also search movies, actors, directors, or movies by different genres by clicking on the “search a movie” at the left upper corner on their interface. After they enter the search interface, as shown in Figure 6, we provide four modes that users can specify, including movies, actors, directors, and genres. This will lead users to different queries. \
-If our database does contain records that satisfy users’ searching criteria, they will be guided to the search result page. For instance, if we search “star wars” in movies, the resulting page will be shown as Figure 7. On the search result page, users can add the corresponding movies to their watchlist if they click “to watch” or they can also rate the movies if they have watched that movie by clicking “watched and rate”. Note that only movies can be added to users’ personal pages. If they search certain actors or directors, those actors and directors cannot be added and an error will occur. \
+Additionally, users can also search movies, actors, directors, or movies by different genres by clicking on the “search a movie” at the left upper corner on their interface. After they enter the search interface, as shown in Figure 6, we provide four modes that users can specify, including movies, actors, directors, and genres. This will lead users to different queries. 
+If our database does contain records that satisfy users’ searching criteria, they will be guided to the search result page. For instance, if we search “star wars” in movies, the resulting page will be shown as Figure 7. On the search result page, users can add the corresponding movies to their watchlist if they click “to watch” or they can also rate the movies if they have watched that movie by clicking “watched and rate”. Note that only movies can be added to users’ personal pages. If they search certain actors or directors, those actors and directors cannot be added and an error will occur. 
 
 <img src="docfigs/Fig 4.PNG" alt="drawing" alt="drawing" width="600"/>
 Fig 4 User interface I
@@ -58,7 +58,7 @@ Fig 7 An example of  search result interface\
 
 
 ## Contribution
-Covid Now app is a free and open source project developed by Qingqing Cao (qc13@illinois.edu), Xiuyu Liu (xiuyul2@illinois.edu), Yang Du and Mingyu Chen. Any contributions are welcome. Here are a few ways you can help:
+Movie recommendation system is a free and open source project developed by Qingqing Cao (qc13@illinois.edu), Xiuyu Liu (xiuyul2@illinois.edu), Yang Du and Mingyu Chen. Any contributions are welcome. Here are a few ways you can help:
 * Report bugs and make suggestions.
 * Write some code. Please follow the code style used in the project to make a review process faster.
  
